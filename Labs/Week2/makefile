@@ -1,9 +1,9 @@
 
-MAIN = main
+MAIN = blink
 
 
 FLASH.bin : $(MAIN).elf
-	avr-objcopy -O binary $(MAIN).elf line-follower.bin
+	avr-objcopy -O binary $(MAIN).elf FLASH.bin
 
 $(MAIN).elf : $(MAIN).o
 	avr-gcc $(MAIN).o -o $(MAIN).elf
