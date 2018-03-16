@@ -1,5 +1,5 @@
 
-MAIN = switch
+MAIN = sensor
 
 
 FLASH.bin : $(MAIN).elf
