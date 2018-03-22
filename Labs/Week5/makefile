@@ -1,5 +1,5 @@
 
-MAIN = sensor
+MAIN = adc
 
 
 FLASH.bin : $(MAIN).elf
